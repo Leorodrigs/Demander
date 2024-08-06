@@ -14,7 +14,6 @@ export class InteiroParaRomanoComponent {
   constructor(private router: Router) {}
 
   converter() {
-    // Resetar mensagens de erro
     this.errorMessage = null;
 
     try {
