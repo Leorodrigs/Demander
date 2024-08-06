@@ -1,0 +1,22 @@
+<div class="container">
+  <h1>Converter Inteiro para Romano</h1>
+
+  <mat-form-field appearance="fill">
+    <mat-label>Valor Inteiro</mat-label>
+    <input
+      matInput
+      type="number"
+      [(ngModel)]="inteiro"
+      placeholder="Digite o valor inteiro"
+      min="1"
+      max="4999"
+    />
+  </mat-form-field>
+
+  <button class="converter" (click)="converter()">Converter</button>
+
+  <div *ngIf="resultado" class="resultado">{{ resultado }}</div>
+  <div *ngIf="errorMessage" class="error">{{ errorMessage }}</div>
+
+  <button class="voltar" (click)="goBack()">Voltar</button>
+</div>

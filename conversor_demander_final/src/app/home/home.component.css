@@ -1,0 +1,49 @@
+:host {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-image: url("/assets/background.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.container {
+  background-color: rgba(255, 249, 249, 0.96);
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  display: inline-block;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+  color: rgb(0, 0, 0);
+  margin: 0;
+}
+
+h2 {
+  color: rgb(0, 0, 0);
+}
+
+button {
+  display: block;
+  width: 200px;
+  height: 50px;
+  margin: 10px auto;
+  color: rgb(0, 0, 0);
+  border: none;
+  border-radius: 10px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+button.romano-para-inteiro {
+  background-color: #000000;
+  color: rgb(255, 255, 255);
+}
+
+button.inteiro-para-romano {
+  background-color: #000000b6;
+  color: rgb(255, 255, 255);
+}

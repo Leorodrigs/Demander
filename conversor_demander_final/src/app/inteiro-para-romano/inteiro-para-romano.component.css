@@ -1,0 +1,65 @@
+:host {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-image: url("/assets/background.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.container {
+  background-color: rgba(255, 249, 249, 0.96);
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  display: inline-block;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+h1,
+p {
+  color: black;
+}
+
+mat-form-field {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+button {
+  display: block;
+  width: 100%;
+  height: 50px;
+  margin-bottom: 10px;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+  color: white;
+}
+
+button.converter {
+  background-color: #000000;
+}
+
+button.voltar {
+  background: none;
+  color: #ff5722;
+  text-decoration: underline;
+  border: none;
+  font-weight: normal;
+  padding: 0;
+  margin: 0;
+}
+
+.resultado {
+  font-size: 18px;
+  color: black;
+  margin-bottom: 20px;
+}
+
+.error {
+  color: red;
+  margin-bottom: 20px;
+}
